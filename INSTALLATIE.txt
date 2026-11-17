@@ -1,0 +1,36 @@
+REPRISE — GRATIS INSTALLEREN
+
+RepRise is een webapp (PWA). Je hoeft hem niet in de App Store te zetten en
+voor het installeren is geen betaald Apple-ontwikkelaarsaccount nodig. De app
+zelf heeft geen abonnement of betaalde functies. Een gratis HTTPS-host is nodig
+om de app vanaf je telefoon te installeren; gratis hosting kan gebruikslimieten
+hebben.
+
+IPHONE / IPAD
+1. Open de openbare HTTPS-link in Safari.
+2. Tik op Deel en kies “Zet op beginscherm”.
+3. Zet “Open als webapp” aan en tik op “Voeg toe”.
+Daarna start RepRise via het pictogram op je beginscherm.
+
+ANDROID
+Open de HTTPS-link in Chrome en kies in het browsermenu “App installeren” of
+“Toevoegen aan startscherm”.
+
+FUNCTIES
+- Eigen trainingsschema’s maken, aanpassen en verwijderen
+- Gewicht en reps per set bijhouden
+- Oefeningen opzoeken met stap-voor-stap uitleg en stilstaande illustraties
+- Voeding loggen met hoeveelheden, macro’s en instelbaar dagdoel
+- Maandelijkse wegingen en voortgangsfoto’s bewaren
+- Stappen schatten met de bewegingssensor terwijl RepRise open is
+
+PRIVACY
+Trainingsplannen, voeding, profiel, wegingen en stappen worden lokaal in je
+browser bewaard. Foto’s worden in lokale browseropslag bewaard en niet naar de
+website gestuurd. Browsergegevens wissen kan deze informatie verwijderen.
+
+BEPERKINGEN
+Safari kan de stappenteller niet betrouwbaar laten doorlopen als de app gesloten
+is of door iOS op de achtergrond is gepauzeerd. Continue achtergrondtelling
+vereist een native app met achtergrondtoegang. De voedingslijst bevat
+gangbare basisproducten en is geen complete merkenlijst.
