@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#1d191a"/><rect x="32" y="32" width="448" height="448" rx="94" fill="#ff5b55"/><path d="M140 354V158h54l123 126V158h55v196h-51L195 222v132z" fill="#fff6f3"/><path d="M314 160h59l-26 31h-59z" fill="#ffd5d1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#171113"/>
+  <rect x="32" y="32" width="448" height="448" rx="94" fill="#ff625c"/>
+  <g fill="#241314">
+    <rect x="81" y="194" width="42" height="124" rx="12"/>
+    <rect x="126" y="166" width="35" height="180" rx="11"/>
+    <rect x="351" y="166" width="35" height="180" rx="11"/>
+    <rect x="389" y="194" width="42" height="124" rx="12"/>
+    <rect x="153" y="243" width="206" height="26" rx="13"/>
+  </g>
+  <path d="m195 217 47-47 38 32 63-73" fill="none" stroke="#fff7f4" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M310 129h37v37" fill="none" stroke="#fff7f4" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
