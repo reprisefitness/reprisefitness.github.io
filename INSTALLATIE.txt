@@ -1,24 +1,32 @@
-REPRISE — INSTALLEREN
+REPRISE — GRATIS INSTALLEREN OP TELEFOON EN COMPUTER
 
-RepRise is een webapp (PWA). Open de HTTPS-link in Safari en kies Deel → Zet
-op beginscherm. De app heeft geen betaald Apple-ontwikkelaarsaccount nodig.
+RepRise is een webapp (PWA) en werkt op iPhone, Android en computer. Open de HTTPS-link in de browser en voeg hem toe aan je beginscherm. Er hoeft geen appwinkel of betaald ontwikkelaarsaccount aan te pas te komen.
+
+IPHONE OF IPAD
+1. Open de RepRise-link in Safari.
+2. Tik op Deel (vierkantje met pijl omhoog).
+3. Kies Zet op beginscherm en tik op Voeg toe.
+
+ANDROID
+1. Open de RepRise-link in Chrome.
+2. Tik op ⋮ en kies App installeren of Toevoegen aan startscherm.
+3. Bevestig met Installeren of Toevoegen.
+
+COMPUTER
+Kies in het browsermenu voor Installeren, als die optie wordt aangeboden.
+
+De officiële Apple App Store en Google Play Store zijn andere publicatiekanalen. Daarvoor zijn ontwikkelaarsaccounts nodig en kunnen registratiekosten gelden.
 
 PROFIEL EN GEGEVENS
-Je vult alleen je naam in; e-mailadres en wachtwoord zijn niet nodig. Schema’s,
-trainingen, voeding, gewicht, stappen en foto’s worden op dit toestel bewaard
-in de browser. Ze synchroniseren niet met andere apparaten. Wis je de
-websitegegevens van Safari of verwijder je lokale appgegevens, dan kun je die
-voortgang kwijtraken.
+Je vult alleen je naam in; e-mailadres en wachtwoord zijn niet nodig. Schema’s, trainingen, voeding, gewicht, stappen en foto’s worden op dit toestel in de browser bewaard. Ze synchroniseren niet met andere apparaten. Wis je websitegegevens of lokale appgegevens, dan kun je voortgang kwijtraken.
 
 STAPPENTELLER
 - Gebruikt de bewegingssensor, geen GPS-locatie.
-- De teller werkt zolang RepRise open is; iOS kan hem pauzeren als de app naar
-  de achtergrond gaat of wordt gesloten.
-- Het is een schatting. Je kunt de dagtelling ook handmatig overnemen uit
-  Apple Gezondheid. Een Safari-webapp kan Apple Gezondheid niet uitlezen.
+- Telt zolang RepRise open is; iOS kan hem pauzeren als de app naar de achtergrond gaat of wordt gesloten.
+- Het is een schatting. Een Safari-webapp kan Apple Gezondheid niet uitlezen.
 
 FUNCTIES
 - Zelf trainingsschema’s samenstellen en oefeningen beheren
-- Een bibliotheek met veelgebruikte oefeningen, uitleg en categorieën
+- Oefeningenbibliotheek met uitleg en categorieën
 - Gewicht en herhalingen per set, voeding en calorievoortgang bijhouden
 - Maandelijkse wegingen, foto’s en stappen lokaal bewaren
