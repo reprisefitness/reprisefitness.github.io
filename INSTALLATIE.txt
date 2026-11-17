@@ -16,9 +16,19 @@ ACCOUNT EN PRIVACY
 Zonder cloudconfiguratie worden profiel en appgegevens alleen in de browser
 bewaard. Om accountsynchronisatie in te schakelen is een eigen Supabase-project
 nodig: vul de project-URL en publishable key in supabase-config.js en voer
-supabase-setup.sql uit in de SQL-editor van het project. Gebruik nooit een
-service_role key in deze webapp. Foto-opslag gebruikt een privé bucket en
-accountgebonden toegangsregels.
+supabase-setup.sql uit in de SQL-editor van het project. Zet in Supabase ook
+e-mailbevestiging uit (er wordt geen mail gestuurd) en stel de exacte site-URL
+in. Omdat het adres niet wordt geverifieerd, kan iemand een adres invullen dat
+van een ander is. Herstel per e-mail is niet ingericht; een verloren wachtwoord
+kan daardoor niet via RepRise worden teruggezet.
+
+E-mailadressen worden uitsluitend bij Supabase Auth gebruikt en komen niet in
+het openbare profiel of de RepRise-datatabel. Andere gebruikers zien elkaars
+mailadres niet. De database gebruikt
+gebruikersgebonden RLS-regels en foto’s staan in een privé bucket. Gebruik
+nooit een service_role key in deze webapp; alleen de publishable key hoort in
+supabase-config.js. Beveiliging is afhankelijk van correcte projectinstellingen
+en kan nooit volledig tegen alle aanvallen worden gegarandeerd.
 
 FUNCTIES
 - Zelf trainingsschema’s en oefeningen maken, aanpassen en verwijderen

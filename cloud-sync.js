@@ -8,7 +8,7 @@
     if (window.supabase?.createClient) return Promise.resolve(window.supabase);
     return new Promise((resolve, reject) => {
       const script = document.createElement('script');
-      script.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
+      script.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.119.0';
       script.async = true;
       script.onload = () => window.supabase?.createClient
         ? resolve(window.supabase)
@@ -39,7 +39,7 @@
     },
     async signUp(email, password, name) {
       const c = await client();
-      return check(await c.auth.signUp({ email, password, options: { data: { display_name: name }, emailRedirectTo: window.location.href } }));
+      return check(await c.auth.signUp({ email, password, options: { data: { display_name: name } } }));
     },
     async signIn(email, password) {
       const c = await client();

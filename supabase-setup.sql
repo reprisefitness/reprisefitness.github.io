@@ -1,5 +1,12 @@
 -- Run once in the Supabase SQL Editor for the RepRise project.
 -- All app records are private to the signed-in user.
+-- Dashboard setup is also required (it cannot be configured by SQL):
+-- 1) Authentication > Sign In / Providers > Email: turn Confirm email off
+--    because this app should not send confirmation emails. This means email
+--    ownership is NOT verified; do not use it for sensitive recovery flows.
+-- 2) Authentication > URL Configuration: set Site URL and the exact allowed
+--    redirect URL to https://<owner>.github.io/reprisefitness/ (or the final
+--    branded URL when available). Do not allow broad wildcard redirects.
 
 create table if not exists public.reprise_user_data (
   user_id uuid primary key references auth.users(id) on delete cascade,
